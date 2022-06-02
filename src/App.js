@@ -1,5 +1,6 @@
 import React from 'react';
-import {Add, Subtract} from '@carbon/react/icons'
+import Add from '@carbon/icons-react/es/Add'
+import  Subtract from "@carbon/icons-react/es/Subtract";
 import {IconButton} from '@carbon/react'
 
 
