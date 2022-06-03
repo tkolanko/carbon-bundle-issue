@@ -228,10 +228,10 @@ module.exports = function (webpackEnv) {
       globalObject: "this"
     },
     optimization: {
-      minimize: false,
+      minimize: true,
       minimizer: [
         // This is only used in production mode
-
+        new TerserPlugin(),
         // This is only used in production mode
         new OptimizeCSSAssetsPlugin({
           cssProcessorOptions: {
